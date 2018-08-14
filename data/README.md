@@ -1,4 +1,6 @@
 
+# Data come from The E2E Challenge : 
+
 The E2E Challenge Dataset
 =========================
 
@@ -25,51 +27,3 @@ which provides an extensive list of results achieved on this data.
 Please refer to [our SIGDIAL2017 paper](https://arxiv.org/abs/1706.09254) for 
 a detailed description of the dataset.
 
-Contents
---------
-
-### Files ###
-
-* trainset.csv – the training set
-* devset.csv – the development set
-* testset.csv – the challenge test set (meaning representations only)
-* testset_w_refs.csv – evaluation test set with reference natural language 
-    utterances
-
-### CSV Data Fields ###
-
-- **mr** – textual meaning representation (MR)
-- **ref** – corresponding natural language utterance (human reference)
-
-Note that several human references correspond to a single MR, i.e., multiple 
-lines contain the same MR.
-
-Citing
-------
-
-If you use this dataset in your work, please cite the following paper:
-
-```
-@inproceedings{novikova2017e2e,
-  title={The {E2E} Dataset: New Challenges for End-to-End Generation},
-  author={Novikova, Jekaterina and Du{\v{s}}ek, Ondrej and Rieser, Verena},
-  booktitle={Proceedings of the 18th Annual Meeting of the Special Interest 
-             Group on Discourse and Dialogue},
-  address={Saarbr\"ucken, Germany},
-  year={2017},
-  note={arXiv:1706.09254},
-  url={https://arxiv.org/abs/1706.09254},
-}
-```
-
-License
--------
-
-Distributed under the [Creative Commons 4.0 Attribution-ShareAlike license
-(CC4.0-BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/).
-
-
-Acknowledgements
-----------------
-
-This research received funding from the EPSRC projects DILiGENt (EP/M005429/1) and MaDrIgAL (EP/N017536/1).
