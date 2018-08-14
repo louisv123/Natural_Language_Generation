@@ -47,7 +47,7 @@ Our Solution for the 3rd NLP course assignment contains the following files and 
 	6) results
 	7) temp
 
-	1) learn_model.py:
+1) learn_model.py:
 
 The main file which contains our implementation of a seq2seq model.
 It has the following arguments:
@@ -58,7 +58,7 @@ The weights will be loaded afterwards by the test file
  --model : choose the model seq2seq, either by character prediction "by_char" or by word prediction "by"_word". The default value is "by_char".
 
  
-	2) test_model.py:
+2) test_model.py:
 
  --test_dataset <pathname_to_test_dataset> for test dataset
  --load <pathname_to_weights_file> Load pre-trained model weights from the given path. Load by default the last trained model from 'saved_weights.h5'
@@ -66,7 +66,7 @@ The weights will be loaded afterwards by the test file
  --model : choose the model seq2seq, either by character prediction "by_char" or by word prediction "by"_word". The default value is "by_char".
 
 
-	3) delexicalize.py:
+3) delexicalize.py:
 
 Personal implementation of a lexicalization function which enables to delexicalize and then relexicalize the input and target sentences to accelerate the learning.
 e.g:
@@ -81,23 +81,23 @@ De-lexicalized Natural Language Sentences: name x is an Indian restaurant in the
 ref: TheE2ENLGChallenge: Training a Sequence-to-Sequence Approach for Meaning Representation to Natural Language Sentences, Elnaz Davoodi et al., Thomson Reuters.
 
 
-	4) data FOLDER:
+4) data FOLDER:
 
 Which contains the train, test datasets
 
 
-	5) saved_models FOLDER:
+5) saved_models FOLDER:
 
 A folder containing already pre-trained weights, such as '64_100_40k.h5' which can be loaded with the --load argument in the test_model.py file. 
 That is where the newly trained model weights will be saved as well.
 
 	
-	6) results FOLDER:
+6) results FOLDER:
 
 Folder which contains the predictions from the different models of the test dataset in csv.
 
 
-	7) temp FOLDER:
+7) temp FOLDER:
 
 Folder which contains a temporary file for loading the vocabulary from the learn_model.py file to the test_model.py csv.
 
