@@ -1,6 +1,4 @@
-MVC/mvc_env.py
-f43dd77 on 22 Dec 2017
-@aurelienbibaut# Natural_Language_Generation
+# Natural_Language_Generation
 
 Natural Language Generation using deep learning models
 
