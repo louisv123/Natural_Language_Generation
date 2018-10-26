@@ -1,10 +1,8 @@
-# Natural_Language_Generation
+MVC/mvc_env.py
+f43dd77 on 22 Dec 2017
+@aurelienbibaut# Natural_Language_Generation
 
 Natural Language Generation using deep learning models
-
-__authors__ = [Louis Veillon, Q.D]
-__emails__ = [louis.veillon@essec.edu, _ ]
-
 
 ## ALGORITHM PRESENTATION 
 
